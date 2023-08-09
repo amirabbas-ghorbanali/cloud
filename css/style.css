@@ -96,6 +96,32 @@ body {
 }
 
 /*******************************/
+/* FEATURES SECTION */
+/*******************************/
+
+.section-feature {
+  padding: 4.8rem 0 3.2rem 0;
+}
+.header-feature {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
+/*******************************/
 /* HERO SECTION */
 /*******************************/
 .section-hero {
@@ -203,4 +229,30 @@ body {
 }
 .step-img {
   width: 35%;
+}
+
+/*******************************/
+/* MEALS SECTION */
+/*******************************/
+
+.section-meals {
+  padding: 9.6rem 0;
+}
+.meal-img {
+  width: 100%;
+}
+.meal-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.attribute {
+  font-size: 1.8rem;
 }
