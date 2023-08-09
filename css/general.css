@@ -1,6 +1,9 @@
 /*******************************/
 /* GENERAL COMPONENT */
 /*******************************/
+strong {
+  font-weight: 500;
+}
 
 .container {
   max-width: 120rem;
