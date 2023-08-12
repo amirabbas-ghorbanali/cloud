@@ -567,7 +567,55 @@
       <section class="section-cta">
         <div class="container">
           <div class="cta">
-            <div class="cta-text-box"></div>
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first meal for free!</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+              <form action="POST" class="cta-form">
+                <div>
+                  <label for="name" class="label">Full Name</label>
+                  <input
+                    id="name"
+                    type="text"
+                    class="input"
+                    placeholder="John Smith"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email" class="label">Email Address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    class="input"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where" class="label"
+                    >Where did you hear about us ?</label
+                  >
+                  <select id="select-where">
+                    <option class="option" value="">
+                      Please chose one option
+                    </option>
+
+                    <option class="option" value="friends">
+                      Friends and Family
+                    </option>
+                    <option class="option" value="youtube">
+                      Youtube video
+                    </option>
+                    <option class="option" value="podcast">Podcast</option>
+                  </select>
+                </div>
+                <button class="btn">Sign Up Now</button>
+              </form>
+            </div>
             <div
               class="cta-img-box"
               role="img"
@@ -578,7 +626,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="contain grid grid--5--cols">
+      <div class="container grid grid--5--cols">
         <div class="logo-col">
           <a href="#" class="footer-log">
             <img
@@ -613,33 +661,39 @@
           <address class="address">
             <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
             <p>
-              <a href="tel:415-201-6370">415-201-6370</a>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a>
               <br />
-              <a href="mailto:hello@omnifood.com"> hello@omnifood.com </a>
+              <a class="footer-link" href="mailto:hello@omnifood.com">
+                hello@omnifood.com
+              </a>
             </p>
           </address>
         </div>
         <nav class="nav-col">
           <p class="footer-header">Accounts</p>
           <ul class="footer-nav">
-            <li><a href="#"> Create account </a></li>
-            <li><a href="#"> Sign in </a></li>
-            <li><a href="#"> iOS app </a></li>
-            <li><a href="#"> Android app</a></li>
+            <li><a href="#" class="footer-link"> Create account </a></li>
+            <li><a href="#" class="footer-link"> Sign in </a></li>
+            <li><a href="#" class="footer-link"> iOS app </a></li>
+            <li><a href="#" class="footer-link"> Android app</a></li>
           </ul>
         </nav>
         <nav class="nav-col">
           <p class="footer-header">Company</p>
-          <li><a href="#"> About Omnifood </a></li>
-          <li><a href="#"> For Business</a></li>
-          <li><a href="#"> Cooking partners </a></li>
-          <li><a href="#">Careers</a></li>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link"> About Omnifood </a></li>
+            <li><a href="#" class="footer-link"> For Business</a></li>
+            <li><a href="#" class="footer-link"> Cooking partners </a></li>
+            <li><a href="#" class="footer-link">Careers</a></li>
+          </ul>
         </nav>
         <nav class="nav-col">
           <p class="footer-header">Resources</p>
-          <li><a href="#">Recipe directory </a></li>
-          <li><a href="#"> Help center</a></li>
-          <li><a href="#"> Privacy & terms </a></li>
+          <ul class="footer-nav">
+            <li><a href="#" class="footer-link">Recipe directory </a></li>
+            <li><a href="#" class="footer-link"> Help center</a></li>
+            <li><a href="#" class="footer-link"> Privacy & terms </a></li>
+          </ul>
         </nav>
       </div>
     </footer>
