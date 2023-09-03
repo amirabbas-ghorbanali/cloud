@@ -36,12 +36,14 @@
 }
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   font-family: "Rubik", sans-serif;
   line-height: 1;
   color: #555;
   font-weight: 400;
+  overflow-x: hidden;
 }
 /*******************************/
 /* HEADER */
@@ -68,7 +70,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -120,6 +122,24 @@ body {
   height: 3.2rem;
   filter: brightness(0);
   opacity: 50%;
+}
+/*******************************/
+/* NAVBAR (MOBILE) */
+/*******************************/
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 /*******************************/
 /* HERO SECTION */
@@ -180,7 +200,7 @@ body {
 /*******************************/
 
 .section-how {
-  padding: 9.6rem;
+  padding: 9.6rem 0;
 }
 
 .step-number {
