@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Omnifood</title>
+    <meta
+      name="description"
+      content="OmniFood => Al-powered site for buying food."
+    />
+    <title>Omnifood &mdash; Do not Cook Anymore</title>
+    <link rel="icon" href="./img/favicon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -86,11 +93,15 @@
           </div>
 
           <div class="hero-img-box">
-            <img
-              class="hero-img"
-              src="./img/hero.png"
-              alt="Woman enjoying food - meal in storage container - food bowls on a table"
-            />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero.png" type="image/png" />
+              <img
+                class="hero-img"
+                src="./img/hero.png"
+                alt="Woman enjoying food - meal in storage container - food bowls on a table"
+              />
+            </picture>
           </div>
         </div>
       </section>
